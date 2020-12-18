@@ -10,12 +10,12 @@ For the back end I decided to use a model called PERN which consists of Postgres
 ## Tech Stack - Front end
 The front end of the app is developed React Native and Expo, which I used to demo the app on my iPhone 11 and debug. Some of the libraries I used include: 
 - React Native Maps: Used for generating the map and rendering markers
-- Socket.io: Used for connecting the front end and back end in real time
-- React Native Gesture Handler: Used for Text input
-- React Native Async Storage: Used for storing JWT Authorization tokens
-- React Native SVG: Used for rendering the Logo
-- React Navigation: Used for navigating the screens in the app
-- Expo Linear Gradient : Used for generating nice background gradients
+- Socket.io: Used for connecting the front end and back end in real time.
+- React Native Gesture Handler: Used for Text input.
+- React Native Async Storage: Used for storing JWT Authorization tokens.
+- React Native SVG: Used for rendering the Logo.
+- React Navigation: Used for navigating the screens in the app.
+- Expo Linear Gradient : Used for generating nice background gradients.
 
 ## Tech Stack - Back end
 The back end of the app is developed using Express(along with cors), bcrypt, jwt, socket.io and Node.
