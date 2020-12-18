@@ -5,7 +5,7 @@ This is a work-in-progress community policing app focused on the simplicity of l
 
 
 ## Tech Stack - Back end
-For the back end I decided to use a model called PERN which consists of PostgresQL, Express, React(Native) and Node. I created my own REST API that calls from the markers table from my database(hosted on ElephantSQL) as well as the users table. Every user that gets created gets their password encrypted using bcrypt. For authentication I decided to use JWT, and those tokens are stored in the AsyncStorage on the front-end. To connect the front-end to the server for real-time updates I am using socket.io.
+For the back end I decided to use a PERN which consists of PostgresQL, Express, React(Native) and Node. I created my own REST API that calls from the markers table from my database(hosted on ElephantSQL) as well as the users table. Every user that gets created gets their password encrypted using bcrypt. For authentication I decided to use JWT, and those tokens are stored in the AsyncStorage on the front-end. To connect the front-end to the server for real-time updates I am using socket.io.
 
 ## Tech Stack - Front end
 The front end of the app is developed React Native and Expo, which I used to demo the app on my iPhone 11 and debug. Some of the libraries I used include: 
