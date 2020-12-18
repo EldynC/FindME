@@ -35,8 +35,9 @@ The back end of the app is developed using Express(along with cors), bcrypt, jwt
 - [ ] Make sockets more efficient by closing connections.
 - [ ] Make the UI look 🌟*Nicer*🌟
 
-## Demo
-
+## Demo - Log in and Report
+<img src="https://imgur.com/WUbKbM7.gif" width=200><br>
+...More demos to come
 ## Credits
 
 I will fill this out as I go but I primarily want to thank Conner Le for helping me design the preliminary UI when we contested in the DFW Adobe XD Jam.
