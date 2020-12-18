@@ -4,8 +4,7 @@
 This is a work-in-progress community policing app focused on the simplicity of letting users report suspicious events, vehicles or people in their area. 
 
 
-## Tech Stack - Back end
-For the back end I decided to use a PERN which consists of PostgresQL, Express, React(Native) and Node. I created my own REST API that calls from the markers table from my database(hosted on ElephantSQL) as well as the users table. Every user that gets created gets their password encrypted using bcrypt. For authentication I decided to use JWT, and those tokens are stored in the AsyncStorage on the front-end. To connect the front-end to the server for real-time updates I am using socket.io.
+
 
 ## Tech Stack - Front end
 The front end of the app is developed React Native and Expo, which I used to demo the app on my iPhone 11 and debug. Some of the libraries I used include: 
@@ -18,7 +17,7 @@ The front end of the app is developed React Native and Expo, which I used to dem
 - Expo Linear Gradient : Used for generating nice background gradients.
 
 ## Tech Stack - Back end
-The back end of the app is developed using Express(along with cors), bcrypt, jwt, socket.io and Node.
+For the back end I decided to use a PERN which consists of PostgresQL, Express, React(Native) and Node. I created my own REST API that calls from the markers table from my database(hosted on ElephantSQL) as well as the users table. Every user that gets created gets their password encrypted using bcrypt. For authentication I decided to use JWT, and those tokens are stored in the AsyncStorage on the front-end. To connect the front-end to the server for real-time updates I am using socket.io.
 - bcrypt: Used for hashing user passwords.
 - Express: Used for creating the API.
 - jwt: Used for creating authentication tokens. 
