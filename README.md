@@ -36,7 +36,8 @@ The back end of the app is developed using Express(along with cors), bcrypt, jwt
 - [ ] Make the UI look 🌟*Nicer*🌟
 
 ## Demo - Log in and Report
-<img src="https://imgur.com/WUbKbM7f.gif" width=200><br>
+<img src="https://imgur.com/WUbKbM7" width=200><br>
+
 ...More demos to come
 ## Credits
 
