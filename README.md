@@ -1,4 +1,4 @@
-# Welcome to StackEdit!
+# Welcome to FindME
 
 ## Overview
 This is a work-in-progress community policing app focused on the simplicity of letting users report suspicious events, vehicles or people in their area. 
@@ -36,7 +36,7 @@ The back end of the app is developed using Express(along with cors), bcrypt, jwt
 - [ ] Make the UI look 🌟*Nicer*🌟
 
 ## Demo - Log in and Report
-<img src="https://imgur.com/WUbKbM7.gif" width=200><br>
+<img src="https://imgur.com/WUbKbM7f.gif" width=200><br>
 ...More demos to come
 ## Credits
 
